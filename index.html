@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Скользящий индикатор</title>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="tabs">
+                <input id="home" type="radio" name="group" checked>
+                <input id="about" type="radio" name="group">
+                <input id="settings" type="radio" name="group">
+                <input id="security" type="radio" name="group">
+                <div class="icon">
+                    <label for="home"><ion-icon name="home-outline"></ion-icon></label>
+                    <label for="about"><ion-icon name="person-outline"></ion-icon></label>
+                    <label for="settings"><ion-icon name="settings-outline"></ion-icon></label>
+                    <label for="security"><ion-icon name="lock-closed-outline"></ion-icon></label>
+                    <div class="indicator"></div>
+                </div>
+                <div class="content">
+                    <div class="contentBx" for="home">
+                        <h2>Home</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste aspernatur ducimus provident ipsa dicta laudantium eligendi, numquam qui rem corporis tempora! Quis natus velit tempore fugiat ipsum? Est, vel!</p>
+                    </div>
+                    <div class="contentBx" for="about">
+                        <h2>About</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem placeat minus sunt vero, minima molestiae ratione perspiciatis. Excepturi, quisquam. Saepe voluptatum beatae minima similique doloribus fugiat quis? Veniam, doloremque enim?</p>
+                    </div>
+                    <div class="contentBx" for="settings">
+                        <h2>Settings</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quam odit natus perspiciatis, maxime odio deserunt est, veritatis consequatur, assumenda quod cumque illo aut voluptatibus modi! Nobis aspernatur culpa dolor?</p>
+                    </div>
+                    <div class="contentBx" for="indicator">
+                        <h2>Indicator</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nulla dolorum iure, facilis obcaecati, fugiat saepe temporibus libero similique ullam quo sapiente illum? Nulla praesentium et asperiores, in debitis sunt?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./js/script.js"></script>   
+    </body>
+</html>
